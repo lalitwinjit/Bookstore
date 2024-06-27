@@ -12,13 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.16.0",
     "express": "^4.19.2",
     "http": "^0.0.1-security",
     "joi": "^17.13.3",
-    "netlify-cli": "^17.30.0",
-    "nodemon": "^3.1.4",
-    "serverless-http": "^3.2.0"
+    "nodemon": "^3.1.4"
   },
   "devDependencies": {
     "prisma": "^5.16.0"
