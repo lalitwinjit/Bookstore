@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.16.1",
     "express": "^4.19.2",
     "http": "^0.0.1-security",
     "joi": "^17.13.3",
