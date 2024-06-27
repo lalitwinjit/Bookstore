@@ -1,6 +1,6 @@
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://avnadmin:AVNS_LxyPX6Ao6zyxVSVGPMO@mysql-3d578ae8-lalitnerkar01-7de0.f.aivencloud.com:22151/BookstoreDB?ssl-mode=REQUIRED"
 }
 
 generator client {
