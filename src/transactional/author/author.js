@@ -39,6 +39,7 @@ const authorActions = {
 
       return new SuccessResponse(author);
     } catch (error) {
+      console.log("error==>", error);
       return new ErrorResponse(error);
     }
   },
