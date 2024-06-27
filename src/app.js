@@ -16,6 +16,10 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 app.use('/authors', authorRouter)
 app.use('/books', bookRoutes)
 
